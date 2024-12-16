@@ -1,0 +1,17 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:copper_block"
+    },
+    "title": "WoccsMod",
+    "description": "錆止めされた酸化した切り込み入りの銅のハーフブロックModの始まりだ",
+    "background": "minecraft:textures/item/copper_block.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "get_grass_block": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}
