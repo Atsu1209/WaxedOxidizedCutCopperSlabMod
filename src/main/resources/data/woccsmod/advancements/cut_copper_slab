@@ -6,7 +6,7 @@
     },
     "title": "銅職人",
     "description": "切り込み入りの銅のハーフブロックを手に入れる",
-    "frame": "challenge",
+    "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
