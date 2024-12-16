@@ -1,0 +1,31 @@
+{
+  "parent": "woccsmod:copper_block",
+  "display": {
+    "icon": {
+      "item": "minecraft:cut_copper_slab"
+    },
+    "title": "銅職人",
+    "description": "切り込み入りの銅のハーフブロックを手に入れる",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "long_long": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:cut_copper_slab"
+            ],
+            "count": {
+              "min": 1
+            }
+          }
+        ]
+      }
+    }
+  }
+}
