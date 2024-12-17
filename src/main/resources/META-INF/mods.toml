@@ -9,7 +9,7 @@ modLoader="javafml" #mandatory
 loaderVersion="${loader_version_range}" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
 # The license for you mod. This is mandatory metadata and allows for easier comprehension of your redistributive properties.
 # Review your options at https://choosealicense.com/. All rights reserved is the default copyright stance, and is thus the default here.
-license="${mod_license}"
+license="MIT License"
 # A URL to refer people to when problems occur with this mod
 #issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/" #optional
 # A list of mods - how many allowed here is determined by the individual mod loader
@@ -29,7 +29,8 @@ displayName="WoccsMod" #mandatory
 # A text field displayed in the mod UI
 #credits="" #optional
 # A text field displayed in the mod UI
-authors="${mod_authors}" #optional
+credits="StedTechOrganization"
+authors="Atsu1209" #optional
 # Display Test controls the display for your mod in the server connection screen
 # MATCH_VERSION means that your mod will cause a red X if the versions on client and server differ. This is the default behaviour and should be what you choose if you have server and client elements to your mod.
 # IGNORE_SERVER_VERSION means that your mod will not cause a red X if it's present on the server but not on the client. This is what you should use if you're a server only mod.
@@ -42,14 +43,18 @@ authors="${mod_authors}" #optional
 description='''錆止めされた酸化した切り込み入りの銅のハーフブロック関する進捗を追加するだけのMod
 WoccsMod(WaxedOxidizedCutCopperSlabModの略)
 
-クレジット
+バージョン情報
+Forge 1.19.4
+WoccsMod pre-1.0.0(PreRelease)
+
+開発者情報
 StedTechOrganization(StedTech-org)
 https://stedtech-org.github.io/home
 Minecraft div.
 Engineering div.
 Owner-Atsu1209.
 
-©️2024-StedTechOrganization
+©2024-StedTechOrganization
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.${mod_id}]] #optional
@@ -70,6 +75,6 @@ side="BOTH"
 modId="minecraft"
 mandatory=true
 # This version range declares a minimum of the current minecraft version up to but not including the next major version
-versionRange="${minecraft_version_range}"
+versionRange="[1.19.4]"
 ordering="NONE"
 side="BOTH"
