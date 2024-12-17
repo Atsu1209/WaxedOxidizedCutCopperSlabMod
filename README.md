@@ -31,3 +31,4 @@
 
 ### ライセンス 
 MIT License  
+[Atsu1209利用規約 1~2番](https://atsu1209.github.io/home/file)
